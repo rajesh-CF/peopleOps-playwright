@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Alice Smith",
+    "utilization": 80,
+    "skills": ["JavaScript", "React"],
+    "status": "active",
+    "availableFrom": "2026-02-10"
+  },
+  {
+    "name": "Bob Jones",
+    "utilization": 0,
+    "skills": ["Python"],
+    "status": "active",
+    "availableFrom": "2026-02-01"
+  },
+  {
+    "name": "Carol White",
+    "utilization": 100,
+    "skills": ["Java"],
+    "status": "active",
+    "availableFrom": "2026-02-01"
+  },
+  {
+    "name": "Dave Black",
+    "utilization": 60,
+    "skills": ["C#", "Azure"],
+    "status": "inactive",
+    "availableFrom": "2026-02-01"
+  },
+  {
+    "name": "Eve Green",
+    "utilization": 90,
+    "skills": ["SQL", "ETL"],
+    "status": "active",
+    "availableFrom": "2026-02-20"
+  }
+]
