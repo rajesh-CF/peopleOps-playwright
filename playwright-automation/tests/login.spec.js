@@ -32,7 +32,7 @@ test.describe('Login Tests', () => {
   });
 
   // TC03: Remember Me Functionality
-  test.skip('TC03 - Remember Me Functionality', async ({ page }) => {
+  test('TC03 - Remember Me Functionality', async ({ page }) => {
     await loginPage.checkRememberMe();
     expect(await loginPage.isRememberMeChecked()).toBe(true);
     
@@ -41,7 +41,7 @@ test.describe('Login Tests', () => {
   });
 
   // TC04: Invalid Username
-  test.only('TC04 - Invalid Username', async () => {
+  test('TC04 - Invalid Username', async () => {
     await loginPage.enterUsername('invaliduser@example.com');
     await loginPage.enterPassword('password123');
     await loginPage.clickSignIn();
