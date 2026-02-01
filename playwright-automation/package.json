@@ -1,0 +1,28 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Enterprise Playwright TypeScript/JavaScript Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:employee": "playwright test tests/employee.spec.js",
+    "test:skills": "playwright test tests/skills.spec.js",
+    "test:designation": "playwright test tests/designation.spec.js",
+    "test:bench": "playwright test tests/bench-dashboard.spec.ts",
+    "test:analytics": "playwright test tests/analytics-dashboard.spec.ts",
+    "report": "playwright show-report",
+    "clean": "rimraf test-results playwright-report"
+  },
+  "keywords": ["playwright", "typescript", "javascript", "automation", "testing"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
+
