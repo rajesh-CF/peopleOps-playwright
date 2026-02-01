@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Acme Corp",
+    "code": "ACME001",
+    "startDate": "2026-02-01",
+    "endDate": "2027-02-01"
+  },
+  {
+    "name": "Beta Corp",
+    "code": "BETA001",
+    "startDate": "2026-03-01",
+    "endDate": "2027-03-01"
+  }
+]
